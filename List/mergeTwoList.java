@@ -3,7 +3,8 @@ package List;
 import java.util.List;
 
 
-public class mergeTwoList(ListNode l1, ListNode l2){
+public class mergeTwoList{
+ public static ListNode mergeTwoList(ListNode l1, ListNode l2){
     ListNode dummy = new ListNode(-1), p = dummy;
     ListNode p1 = l1, p2 = l2;
     
@@ -27,4 +28,5 @@ public class mergeTwoList(ListNode l1, ListNode l2){
    }
 
    return dummy.next;
+}
 }
