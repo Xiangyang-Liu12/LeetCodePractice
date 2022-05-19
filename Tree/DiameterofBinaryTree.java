@@ -2,7 +2,7 @@ package Tree;
 
 public class DiameterofBinaryTree {
     int result = 0;
-    public int DiameterofBinaryTree(TreeNode root){
+    public int Diametero0fBinaryTree(TreeNode root){
         helper(root);
         return result;
     }
