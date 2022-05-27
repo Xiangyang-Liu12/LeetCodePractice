@@ -12,4 +12,8 @@ public class List<T> {
     public void remove(int i) {
     }
 
+    public boolean contains(int i) {
+        return false;
+    }
+
 }
