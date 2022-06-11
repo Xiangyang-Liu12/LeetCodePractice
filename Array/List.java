@@ -2,7 +2,7 @@ package Array;
 
 public class List<T> {
 
-    public void add(int i) {
+    public void add(int[] newInterval) {
     }
 
     public int size() {
@@ -14,6 +14,10 @@ public class List<T> {
 
     public boolean contains(int i) {
         return false;
+    }
+
+    public int[][] toArray(int[] is) {
+        return null;
     }
 
 }
